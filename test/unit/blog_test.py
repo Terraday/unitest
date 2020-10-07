@@ -15,3 +15,6 @@ class BlogTest(TestCase):
         
         self.assertEqual(b.__repr__(),'Test por Peter (2 posts)')
         self.assertEqual(b2.__repr__(),'My Day por Josue (1 post)')
+
+    def test_tarea(self):
+        pass
